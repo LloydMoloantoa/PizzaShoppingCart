@@ -1,175 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Perfect Pizza</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
-  <div class="container">
-    <div class="row">
-    <div class="col-12">
-      <!-- This content will take up 3/12 (or 1/4) of the container -->
-      <div class="box">
-        <div class="row">
-          <div class="six columns">
-              <h1 style="color:rgb(5, 10, 51);">Shopping Cart</h1>
-              <div class="">
-                <label class="">
-                  <span >Small pizza</span>
-                </label>
-                <button class="addBtn49" type="button" name="addBtn49">+</button>
-                <button class="subtractBtn49" type="button" name="subtractBtn49">-</button>
-                <label class="cartSmallPizzaLbl">
-                  <span >R0.00</span>
-                </label>
-              </div>
+  </head>
+  <body>
+    <div class="container">
 
-              <div>
-                <label class="">
-                  <span  >Medium pizza</span>
-                </label>
-                <button class="addBtn79" type="button" name="addBtn79">+</button>
-                <button class="subtractBtn79" type="button" name="subtractBtn79">-</button>
-                <label class="cartMediumPizzaLbl">
-                  <span >R0.00</span>
-                </label>
-              </div>
-            <div>
-              <label class="">
-                <span  >Large pizza</span>
-              </label>
-              <button class="addBtn99" type="button" name="addBtn99">+</button>
-              <button class="subtractBtn99" type="button" name="subtractBtn99">-</button>
-              <label class="cartLargePizzaLbl">
-                <span >R0.00</span>
-              </label>
-            </div>
-            
-            <!-- <h1 style="color:rgb(5, 10, 51);">Total cost: 
-              <label class="totalCostLbl">
-                <span >R0.00</span>
-              </label>
-            </h1> -->
-            <label class="totalCostLbl">
-              <span >Total cost: R0.00</span>
+      <div class="boxes">
+        <div class="boxShoppingCart hidden">
+
+         
+          <h1 style="font-size: 2rem; color:rgb(5, 10, 51);">Shopping Cart</h1>
+          <div class="">
+            <label class="" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+              <span >Small pizza</span>
             </label>
-
-            <div>
-              <label style="font-style: oblique;" >Pay Amount: R</label>
-              <input class="u-full-width payAmountTxt" type="number" placeholder="eg. 49.00">
-            </div>
-              
-              <label class="">
-                <span ></span>
-              </label>
-              <button style="font-size: 2rem; background-color: rgb(42, 165, 165);" class="" type="button" name="">   Pay  </button>
-            </div>
-        </div>
-      </div>   
-  </div>
-
- </div>
-</div>
-
-<div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-4">
-        <!-- This content will take up 3/12 (or 1/4) of the container -->
-   
-      </div>
-   
-    <div class="col-4">
-      <!-- This content will take up 3/12 (or 1/4) of the container -->
-      <div class="box">
-          <h1 style="color:rgb(5, 10, 51);">Perfect Pizza</h1>
-      </div>   
-  </div>
-
-   </div>
-</div>
-
-<div class="row">
-      <div class="col-4">
-        <!-- This content will take up 3/12 (or 1/4) of the container -->
-        <div class="box">
-          <div class="pizza small_pizza">
-            <h2>Small pizza</h2>
-            <img src="images/pizza-2.jpg" width=65%>
-            <h3>R49.00</h3>         
-            <p>
-              Small pizza with 3 
-              toppings 1 meat 
-              topping 3 or less
-            </p>
-        </div>
+            <button class="card-button addBtn49" type="button" name="addBtn49">+</button>
+            <button class="card-button subtractBtn49" type="button" name="subtractBtn49">-</button>
+            <label class="cartSmallPizzaLbl" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+              <span >R0.00</span>
+            </label>
+          </div>
+  
+          <div>
+            <label class="" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+              <span  >Medium pizza</span>
+            </label>
+            <button class="card-button addBtn79" type="button" name="addBtn79">+</button>
+            <button class="card-button subtractBtn79" type="button" name="subtractBtn79">-</button>
+            <label class="cartMediumPizzaLbl" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+              <span >R0.00</span>
+            </label>
+          </div>
         <div>
-          <button style="font-size: 2rem; background-color: rgb(42, 165, 165);"  class="addBtn49" type="button" name="addBtn49">Buy</button>  
+          <label class="" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+            <span  >Large pizza</span>
+          </label>
+          <button class="card-button addBtn99" type="button" name="addBtn99">+</button>
+          <button class="card-button subtractBtn99" type="button" name="subtractBtn99">-</button>
+          <label class="cartLargePizzaLbl" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+            <span >R0.00</span>
+          </label>
         </div>
-            
-      </div>   
-     </div>
+        
+        <label class="totalCostLbl" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+          <span >Total cost: R0.00</span>       
+        </label>
+        <button class="card-button subtractBtnTotal" type="button" name="subtractBtnTotal">clear All</button>
+        <div>
+          <label style="font-size: 2.5rem; color:rgb(5, 10, 51);">Pay Amount: R</label>
+          <input class="u-full-width payAmountTxt" type="number" placeholder="eg. 49.00">
+        </div>
+          
+          <label class="">
+            <span ></span>
+          </label>
+          <button class="card-button payBtn" type="button" name="payBtn">   Pay  </button>
 
-      <div class="col-4">
-        <!-- This content will take up 3/12 (or 1/4) of the container -->
-      <div class="box">
-        <div class="pizza medium_pizza">
-          <h2>Medium pizza</h2>
-          <img src="images/pizza-2.jpg" width=65%>
-          <h3>R79.00</h3>        
-          <p>
-            Medium pizza with 5 
-            toppings 5 meat 
-            topping 3 or less
-          </p>
+          <div>
+            <label class="outPutLbl" style="font-size: 2.5rem; color:rgb(5, 10, 51);">
+              <span >....</span>       
+            </label>
+          </div>
+       
+        </div>
       </div>
-      <button style="font-size: 2rem; background-color: rgb(42, 165, 165);" class="addBtn79" type="button" name="addBtn79">Buy</button>     
-    </div>
-      </div>
-
-     <div class="col-4">
-          <!-- This content will take up 3/12 (or 1/4) of the container -->
-          <div class="box">
-            <div class="pizza large_pizza">
-              <h2>Large pizza</h2>
-              <img src="images/pizza-2.jpg" width=65%>
-              <h3>R99.00</h3>
-              <p> Large pizza with 10 
-                toppings 5 meat 
-                topping 7 or less
-              </p>
-          </div> 
-          <button style="font-size: 2rem; background-color: rgb(42, 165, 165);" class="addBtn99" type="button" name="addBtn99">Buy</button>  
-      </div>
-    </div>
-    
-    <div class="row">
       
-      <div class="col-4"> 
+    
 
-    </div>
+      <!-- Popular tours -->
+      <section class="popular-tours">
+        <h1 class="popular-tours-heading">Perfect Pizza</h1>
+        <div class="cards-wrapper">
+          <div class="card">
+            <div class="front-side">
+              <img src="images/1.jpg" alt="Forest" class="card-image" />
+              <h1 class="tour-name">Small pizza</h1>
+              <ul class="card-list">
+                <li class="card-list-item">3 toppings </li>
+                <li class="card-list-item">Meat </li>
+                
+              </ul>
+              <button class="navigation-button">
+                price &gt;&gt;
+              </button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button">
+                &lt;&lt; back
+              </button>
+              <h3 class="tour-price">R49.00</h3>
+                <button class="addBtn49c card-button" type="button" name="addBtn49c">Buy</button>
+             </a>
+            </div> 
+          </div>
 
-          <div class="col-4">
-          <!-- This content will take up 3/12 (or 1/4) of the container -->
-          <div class="box">
-            <div class="pizza contact_us">
-              <p>
-                Contact details : 079 055 468
-               
-              </p>      
-          </div>      
+
+          <div class="card">
+            <div class="front-side">
+              <img src="images/2.jpg" alt="River" class="card-image" />
+              <h1 class="tour-name">Medium pizza</h1>
+              <ul class="card-list">
+                <li class="card-list-item">5 toppings </li>
+                <li class="card-list-item">Vegies and meat</li>
+                
+              </ul>
+              <button class="navigation-button">
+                price &gt;&gt;
+              </button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button">
+                &lt;&lt; back
+              </button>
+              <h3 class="tour-price">R79.00</h3>
+              
+              <button class="addBtn79c card-button" type="button" name="addBtn79c">Buy</button>
+             </a>    
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="front-side">
+              <img src="images/3.jpg" alt="Sea" class="card-image" />
+              <h1 class="tour-name">Large pizza</h1>
+              <ul class="card-list">
+                <li class="card-list-item">10 toppings</li>
+                <li class="card-list-item">and a salad</li>
+              </ul>
+              <button class="navigation-button">
+                price &gt;&gt;
+              </button>
+            </div>
+            <div class="back-side center">
+              <button class="navigation-button">
+                &lt;&lt; back
+              </button>
+              <h3 class="tour-price">R99.00</h3>
+             
+              <button class="addBtn99c card-button" type="button" name="addBtn99c">Buy</button>
+             </a>
+            </div>
           </div>
         </div>
 
-  </div>
- </div>
-</div>
-</body>
-<script src="script.js"></script>
-<script src="script1.js"></script>
+
+        <div>
+          <h1 class="popular-tours-heading">Contact details : 079 055 468</h1>
+        </div>
+
+      </section>
+      <!-- End of Popular tours -->
+      <script src="script.js"></script>
+      <script src="script2.js"></script>
+      <script src="script3.js"></script>
+    </div>
+  </body>
 </html>
